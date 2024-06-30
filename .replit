@@ -1,7 +1,7 @@
 modules = ["python-3.12"]
-run = "python3 ./Day005/typecasting.py"
+run = "python3 ./Day006/strings.py"
 [nix]
 channel = "stable-23_11"
 
 [deployment]
-run = ["sh", "-c", "python3 ./Day005/typecasting.py"]
+run = ["sh", "-c", "python3 ./Day006/strings.py"]
