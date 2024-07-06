@@ -68,5 +68,5 @@ for i in l1:
     if(onecorrectcount==0):
       displayPrizeMoney=0
     break
-  print("--------------------------------------------------------------------------")
+  print("-------------------------------------------------------------------------------")
 print("Your total winnings : ₹",displayPrizeMoney)  
