@@ -23,3 +23,22 @@ except IndexError:
   print("Index error")
   
 print("End of program.")
+
+try:
+  result = 100 / 2
+except ZeroDivisionError:
+  print(f"Division Error")
+else:
+  print("Result is", result)
+
+try:
+  result = 10 / 0
+except ZeroDivisionError:
+  print("Division by zero!")
+finally:
+  print("This block of code will always execute.")
+
+try:
+  raise ValueError("This is a custom error message.")
+except ValueError as e:
+  print("An error occurred:", str(e))
