@@ -6,3 +6,5 @@ os.mkdir("Day039/Data")
 
 for i in range(0, 5):
   os.mkdir(f"Day039/Data/Day{i+1}")
+
+# Link to repl : https://replit.com/@sapfire955/Python#Day039
