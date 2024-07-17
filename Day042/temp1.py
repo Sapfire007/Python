@@ -1,0 +1,6 @@
+h = open('Day042/myfile.txt','w')
+h.write("Hey this text file has been created with python")
+h.write("\nThis is line 2")
+h.write("\nThis is line 3")
+h.write("\nThis is line 4")
+h.close()
