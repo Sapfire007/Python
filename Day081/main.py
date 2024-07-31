@@ -1,3 +1,6 @@
+# AsyncIO in Python
+# See the speed and sequence of download to observe the change
+
 import time
 import asyncio 
 import requests
