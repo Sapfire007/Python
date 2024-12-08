@@ -1,0 +1,50 @@
+import numpy as np
+
+#numpyndarray.shape
+n1 = np.array([[1,2,3],[7,8,9]])
+print(n1.shape)
+print(n1)
+print()
+n1.shape = (3,2)
+print(n1)
+print()
+n1.shape = (1,6)
+print(n1)
+print()
+n1.shape = (6,1)
+print(n1)
+print()
+print()
+
+
+#np.vstack(()); np.hstack(()); np.column_stack(())
+n2 = np.array([1,5,7])
+n3 = np.array([8,4,3])
+print(np.vstack((n2,n3)))
+print(np.hstack((n2,n3)))
+print(np.column_stack((n2,n3)))
+n4 = np.array([1,5,7,9,4,7,6])
+n5 = np.array([8,4,3,1,2,9,4])
+n6 = np.array([9,0,1,2,3,4,5])
+print(np.column_stack((n4,n5,n6)))
+print()
+print()
+
+
+#np.intersect1d()
+n7 = np.array([34,56,23,12,30,98])
+n8 = np.array([12,55,51,33,21,39,80,34,95])
+print(np.intersect1d(n7,n8))
+print()
+print()
+
+
+#np.setdiff1d() -> to extract the unique values in n9 (n9-n10)
+n9 = np.array([10,20,30,40,50,60])
+n10 = np.array([50,60,70,80,90,100])
+print(np.setdiff1d(n9,n10))
+print()
+#np.setdiff1d() -> to extract the unique values in n10 (n10-n9)
+n9 = np.array([10,20,30,40,50,60])
+n10 = np.array([50,60,70,80,90,100])
+print(np.setdiff1d(n10,n9))
